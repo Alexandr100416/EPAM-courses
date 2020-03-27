@@ -71,6 +71,8 @@ ol {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .footer-information {
   color: #ffffff;
@@ -316,7 +318,8 @@ ol {
 
   font-weight: lighter;
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   margin: 0 auto;
   display: block;
+  padding: 4px 4px 4px;
 }
