@@ -93,7 +93,16 @@ ol {
   margin: 0 auto;
 }
 /* =========================H1 element ============ */
-
+.news-name-item:hover {
+  color: #7c0d0d;
+}
+.coronavirusAndOther__list-item-element:hover {
+  color: #7c0d0d;
+}
+.header__list-item:hover {
+  border: 1px solid #ffffff;
+  padding: 1px 1px 1px;
+}
 .news__list {
   display: flex;
   padding-left: 20px;
@@ -218,6 +227,10 @@ ol {
   display: block;
   background-color: #ffffff;
 }
+.news-button:hover {
+  color: #c7c4c4;
+  border: 2px solid #c7c4c4;
+}
 .batton {
   background-color: #ffffff;
   padding-bottom: 50px;
@@ -233,7 +246,21 @@ ol {
   font-size: 15px;
   padding-bottom: 10px;
 }
+.section-title-coments {
+  background-color: #4307ce;
+
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
 .section-link {
+  color: #ffffff;
+}
+.section-link-coments {
   color: #ffffff;
 }
 .comment__list {
@@ -258,6 +285,9 @@ ol {
   text-align: center;
   padding-bottom: 20px;
 }
+.comment-inform-elem:hover {
+  color: #4307ce;
+}
 .name-inform {
   padding-top: 20px;
   text-transform: uppercase;
@@ -279,6 +309,9 @@ ol {
   font-size: 20px;
   font-weight: bold;
 }
+.comment-text-inform:hover {
+  color: #4307ce;
+}
 .comment-button {
   margin: 0 auto;
   padding: 0;
@@ -296,10 +329,15 @@ ol {
   display: block;
   background-color: #ffffff;
 }
+.comment-button:hover {
+  color: #c7c4c4;
+  border: 2px solid #c7c4c4;
+}
 .batton {
   background-color: #ffffff;
   padding-bottom: 50px;
 }
+
 .logo-footer-element {
   padding-left: 20px;
   padding-top: 20px;
@@ -312,14 +350,12 @@ ol {
   padding-bottom: 20px;
 }
 .footer__list-link {
-  background-color: unset;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 12px;
 
   font-weight: lighter;
   color: #ffffff;
-  border: 1px solid #ffffff;
-  margin: 0 auto;
-  display: block;
-  padding: 4px 4px 4px;
+}
+.footer__list-link:hover {
+  text-decoration: underline;
 }
