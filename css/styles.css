@@ -1,0 +1,152 @@
+/* standart element */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: none;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.container {
+  width: 1201px;
+  margin: 0 auto;
+}
+/* ================================ */
+
+.main {
+  background-color: #f5eeea;
+}
+.header {
+  background-color: #01000d;
+}
+.navigation {
+  height: 40px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  padding: 10px 20px;
+  display: flex;
+  width: 500px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list-logination {
+  padding: 10px 20px;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+.header__list-link {
+  color: #ffffff;
+}
+.logo {
+  color: #ffffff;
+}
+.footer {
+  background-color: #01000d;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-information {
+  color: #ffffff;
+}
+.footer__list-link {
+  color: #ffffff;
+}
+
+/* =======================H1 element ======== */
+.general-text {
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+.general-logo-title {
+  margin: 0 auto;
+}
+/* =========================H1 element ============ */
+.section-title {
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.news__list {
+  display: flex;
+}
+.news__list-item-text {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.news__list-item-title {
+  font-size: 15px;
+}
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.news__list-item {
+  display: list-item;
+  width: 220px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 110px;
+}
+.news__list-item:first-child{
+  background-image: url(/img/rachel.jpg);
+  
+}
+.news__list-item:nth-child(2) {
+  background-image: url(/img/anthony.jpg)
+}
+.news__list-item:nth-child(3) {
+  background-image: url(/img/psychological.jpg)
+}
+.news__list-item:nth-child(4) {
+  background-image: url(/img/yorker.png)
+}
+.news__list-item:nth-child(5) {
+  background-image: url(/img/war.jpg)
+}
+.news {
+  padding-bottom: 20px;
+}
+.information-secondnews {
+  margin-bottom: 5px;
+  background-color: #ffffff;
+}
+.coronavirusAndOther__list {
+  display: flex;
+  justify-content: space-between;
+}
+.coronavirusAndOther__list-item {
+  margin-right: 10px;
+}
