@@ -90,14 +90,11 @@ ol {
   margin: 0 auto;
 }
 /* =========================H1 element ============ */
-.section-title {
-  text-transform: uppercase;
-  color: #333333;
-  font-size: 15px;
-  padding-bottom: 20px;
-}
+
 .news__list {
   display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .news__list-item-text {
   font-size: 14px;
@@ -120,33 +117,190 @@ ol {
   background-position: left top;
   padding-left: 110px;
 }
-.news__list-item:first-child{
+.news__list-item:first-child {
   background-image: url(/img/rachel.jpg);
-  
 }
 .news__list-item:nth-child(2) {
-  background-image: url(/img/anthony.jpg)
+  background-image: url(/img/anthony.jpg);
 }
 .news__list-item:nth-child(3) {
-  background-image: url(/img/psychological.jpg)
+  background-image: url(/img/psychological.jpg);
 }
 .news__list-item:nth-child(4) {
-  background-image: url(/img/yorker.png)
+  background-image: url(/img/yorker.png);
 }
 .news__list-item:nth-child(5) {
-  background-image: url(/img/war.jpg)
+  background-image: url(/img/war.jpg);
 }
 .news {
   padding-bottom: 20px;
 }
 .information-secondnews {
-  margin-bottom: 5px;
   background-color: #ffffff;
+  padding-left: 20px;
+  
 }
 .coronavirusAndOther__list {
   display: flex;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.coronavirusAndOther__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .coronavirusAndOther__list-item {
-  margin-right: 10px;
+  display: list-item;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 250px;
+}
+.coronavirusAndOther__list-item:first-child {
+  background-image: url(/img/sale.jpg);
+}
+.coronavirusAndOther__list-item-title {
+  padding-top: 10px;
+}
+.coronavirusAndOther__list-item:nth-child(2) {
+  background-image: url(/img/Police.jpg);
+}
+.coronavirusAndOther__list-item:nth-child(3) {
+  background-image: url(/img/milion.jpg);
+}
+.coronavirusAndOther__list-item:nth-child(4) {
+  background-image: url(/img/italy.jpg);
+}
+.coronavirusAndOther__list-item:nth-child(5) {
+  background-image: url(/img/Solomon.jpg);
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.coronavirusAndOther__list-item:nth-child(6) {
+  background-image: url(/img/women.jpg);
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.coronavirusAndOther__list-item:nth-child(7) {
+  background-image: url(/img/Oldpeople.jpg);
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.coronavirusAndOther__list-item:nth-child(8) {
+  background-image: url(/img/albertUderzo.jpg);
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.coronavirusAndOther__list {
+  background-color: #ffffff;
+}
+
+
+.news-button {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  width: 160px;
+  height: 40px;
+  background-color: unset;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+  border: 2px solid #333333;
+  margin: 0 auto;
+  display: block;
+  background-color: #ffffff;
+}
+.batton {
+  background-color: #ffffff;
+  padding-bottom: 50px;
+}
+.section-title {
+  background-color: #7c0d0d;
+  
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.section-link {
+  color: #ffffff;
+}
+.comment__list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding-left: 20px;
+  
+
+}
+.coment-boris-item {
+  display: flex;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.boris-information {
+  border-radius: 50%;
+  margin: 0 auto;
+
+}
+.comment-inform {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+.name-inform {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-bottom: 20px;
+  color: crimson;
+  text-align: center;
+}
+.comment-text {
+  color: #333333;
+  text-align: center;
+  padding-bottom: 30px;
+  
+}
+.comment__list-item {
+  padding-right: 10px;
+}
+.comment-text-inform {
+  color: #333333;
+  font-size: 20px;
+  font-weight: bold;
+}
+.comment-button {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  width: 160px;
+  height: 40px;
+  background-color: unset;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+  border: 2px solid #333333;
+  margin: 0 auto;
+  display: block;
+  background-color: #ffffff;
+}
+.batton {
+  background-color: #ffffff;
+  padding-bottom: 50px;
 }
