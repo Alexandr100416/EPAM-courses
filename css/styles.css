@@ -70,6 +70,7 @@ ol {
 .footer-list {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 .footer-information {
   color: #ffffff;
@@ -138,7 +139,6 @@ ol {
 .information-secondnews {
   background-color: #ffffff;
   padding-left: 20px;
-  
 }
 .coronavirusAndOther__list {
   display: flex;
@@ -199,7 +199,6 @@ ol {
   background-color: #ffffff;
 }
 
-
 .news-button {
   margin: 0 auto;
   padding: 0;
@@ -223,7 +222,7 @@ ol {
 }
 .section-title {
   background-color: #7c0d0d;
-  
+
   margin-bottom: 20px;
   padding-top: 10px;
   padding-left: 20px;
@@ -240,8 +239,6 @@ ol {
   justify-content: space-between;
   background-color: #ffffff;
   padding-left: 20px;
-  
-
 }
 .coment-boris-item {
   display: flex;
@@ -253,13 +250,11 @@ ol {
 .boris-information {
   border-radius: 50%;
   margin: 0 auto;
-
 }
 .comment-inform {
   font-size: 40px;
   text-align: center;
   padding-bottom: 20px;
-  
 }
 .name-inform {
   padding-top: 20px;
@@ -273,7 +268,6 @@ ol {
   color: #333333;
   text-align: center;
   padding-bottom: 30px;
-  
 }
 .comment__list-item {
   padding-right: 10px;
@@ -303,4 +297,26 @@ ol {
 .batton {
   background-color: #ffffff;
   padding-bottom: 50px;
+}
+.logo-footer-element {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-information {
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.footer__list-link {
+  background-color: unset;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 12px;
+
+  font-weight: lighter;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  margin: 0 auto;
+  display: block;
 }
